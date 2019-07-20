@@ -26,10 +26,8 @@ import 'jspolyfill-array.prototype.find';
     };
   },
   mounted() {
-    window.addEventListener("resize", this.getWindowWidth);
-    window.addEventListener("resize", this.getWindowHeight);
-    this.getWindowWidth();
-    this.getWindowHeight();
+    window.addEventListener("resize", this.getBlockSize);
+    this.getBlockSize();
   },
   methods: {
     getBlockSize() {
@@ -39,14 +37,6 @@ import 'jspolyfill-array.prototype.find';
       const total = Math.sqrt(sum / 1000);
       this.blockSize = total - 1;
     },
-    getWindowWidth() {
-      this.windowWidth = document.documentElement.clientWidth;
-      this.getBlockSize();
-    },
-    getWindowHeight() {
-      this.windowHeight = document.documentElement.clientHeight;
-      this.getBlockSize();
-    }
   },
   computed: {
     amountOfBlocksPerSection() {
