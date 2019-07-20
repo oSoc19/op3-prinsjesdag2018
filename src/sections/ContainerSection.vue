@@ -17,7 +17,6 @@
 <script>
 // IE does not support .find (ノ⁠ಠ ∩ಠ)⁠ノ⁠彡⁠(｡⁠ㅁ ｡ )
 import 'jspolyfill-array.prototype.find';
-import { trackChapter } from "../utils/track";
 
 export default {
   props: {
@@ -40,10 +39,6 @@ export default {
       type: String,
       default: ""
     },
-    trackerId: {
-      type: String,
-      default: ""
-    },
     blockAmount: {
       type: Number
     },
@@ -59,11 +54,6 @@ export default {
     textTitleColor: {
       type: String
     }
-  },
-  data() {
-    return {
-      tracked: false
-    };
   },
   computed: {
     containerStyle() {
@@ -93,14 +83,6 @@ export default {
       return sum;
     }
   },
-  watch: {
-    activeSection() {
-      if (this.activeSection === this.sectionId && !this.tracked) {
-        trackChapter(this.trackerId);
-        this.tracked = true;
-      }
-    }
-  }
 };
 </script>
 <style lang="scss" scoped>
