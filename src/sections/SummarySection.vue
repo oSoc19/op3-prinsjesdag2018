@@ -13,7 +13,6 @@
   </section>
 </template>
 <script>
-import { trackChapter } from "../utils/track";
 import BarChart from "../components/dataviz/BarChart";
 import Colofon from "../components/Colofon";
 import data from "@/data.json";
@@ -39,10 +38,6 @@ export default {
       type: String,
       default: ""
     },
-    trackerId: {
-      type: String,
-      default: ""
-    },
     textColor: {
       type: String,
       default: "#000"
@@ -51,7 +46,6 @@ export default {
   data() {
     return {
       total: data.total,
-      tracked: false,
       showTooltip: false
     };
   },
@@ -61,14 +55,6 @@ export default {
       return `background-color: ${this.bgColor}`;
     }
   },
-  watch: {
-    activeSection() {
-      if (this.activeSection === this.sectionId && !this.tracked) {
-        trackChapter(this.trackerId);
-        this.tracked = true;
-      }
-    }
-  }
 };
 </script>
 <style lang="scss" scoped>

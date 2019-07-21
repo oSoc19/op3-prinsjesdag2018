@@ -4,8 +4,7 @@
     {
       "component": "intro-section",
       "id": "intro",
-      "trackerdId": "00-intro",
-      "bgColor": "rgb(2555, 255, 255)",
+      "bgColor": "rgb(255, 255, 255)",
       "height": "100vh",
       "scrollTo": "#landbouw-natuur-voedselkwaliteit",
       "blockAmount": 0,
@@ -24,7 +23,6 @@
     {
       "component": "container-section",
       "id": "landbouw-natuur-voedselkwaliteit",
-      "trackerdId": "01-landbouw-natuur-voedselkwaliteit",
       "bgColor": "transparent",
       "height": "100vh",
       "title": "Landbouw, Natuur en Voedselkwaliteit",
@@ -38,7 +36,6 @@
     {
       "component": "container-section",
       "id": "financien",
-      "trackerdId": "02-financien",
       "bgColor": "transparent",
       "height": "100vh",
       "title": "Financiën",
@@ -52,7 +49,6 @@
     {
       "component": "container-section",
       "id": "overig",
-      "trackerdId": "03-overig",
       "bgColor": "transparent",
       "height": "100vh",
       "title": "Overig",
@@ -66,7 +62,6 @@
     {
       "component": "container-section",
       "id": "economische-zaken-klimaat",
-      "trackerdId": "04-economische-zaken-klimaat",
       "bgColor": "transparent",
       "height": "100vh",
       "title": "Economische Zaken en Klimaat",
@@ -80,7 +75,6 @@
     {
       "component": "container-section",
       "id": "binnenlandse-zaken-koninkrijksrelaties",
-      "trackerdId": "05-binnenlandse-zaken-koninkrijksrelaties",
       "bgColor": "transparent",
       "height": "100vh",
       "title": "Binnenlandse Zaken en Koninkrijksrelaties",
@@ -94,7 +88,6 @@
     {
       "component": "container-section",
       "id": "rentelasten",
-      "trackerdId": "06-rentelasten",
       "bgColor": "transparent",
       "height": "100vh",
       "title": "Rentelasten",
@@ -108,7 +101,6 @@
     {
       "component": "container-section",
       "id": "infrastructuur-waterstaat",
-      "trackerdId": "07-infrastructuur-waterstaat",
       "bgColor": "transparent",
       "height": "100vh",
       "title": "Infrastructuur en Waterstaat",
@@ -122,7 +114,6 @@
     {
       "component": "container-section",
       "id": "defensie",
-      "trackerdId": "08-defensie",
       "bgColor": "transparent",
       "height": "100vh",
       "title": "Defensie",
@@ -136,7 +127,6 @@
     {
       "component": "container-section",
       "id": "justitie-veiligheid",
-      "trackerdId": "09-justitie-veiligheid",
       "bgColor": "transparent",
       "height": "100vh",
       "title": "Justitie en Veiligheid",
@@ -150,7 +140,6 @@
     {
       "component": "container-section",
       "id": "buza-internationale-samenwerking",
-      "trackerdId": "10-buza-internationale-samenwerking",
       "bgColor": "transparent",
       "height": "100vh",
       "title": "Buitenlandse Zaken/Internationale Samenwerking",
@@ -164,7 +153,6 @@
     {
       "component": "container-section",
       "id": "gemeente-provincie-btw-compensatiefonds",
-      "trackerdId": "11-gemeente-provincie-btw-compensatiefonds",
       "bgColor": "transparent",
       "height": "100vh",
       "title": "Gemeente-, Provincie- en Btw-compensatiefonds",
@@ -178,7 +166,6 @@
     {
       "component": "container-section",
       "id": "onderwijs-cultuur-klimaat",
-      "trackerdId": "12-onderwijs-cultuur-klimaat",
       "bgColor": "transparent",
       "height": "100vh",
       "title": "Onderwijs, Cultuur en Wetenschap",
@@ -192,7 +179,6 @@
     {
       "component": "container-section",
       "id": "zorg",
-      "trackerdId": "13-zorg",
       "bgColor": "transparent",
       "height": "100vh",
       "title": "Zorg",
@@ -206,7 +192,6 @@
     {
       "component": "container-section",
       "id": "sociale-zekerheid-arbeidsmarkt",
-      "trackerdId": "14-sociale-zekerheid-arbeidsmarkt",
       "bgColor": "transparent",
       "height": "100vh",
       "title": "Sociale Zekerheid en Arbeidsmarkt",
@@ -220,7 +205,6 @@
     {
       "component": "summary-section",
       "id": "summary",
-      "trackerdId": "15-summary",
       "bgColor": "white",
       "height": "100vh",
       "title": "Samenvatting",

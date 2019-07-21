@@ -87,10 +87,6 @@ export default {
       type: String,
       default: ""
     },
-    trackerId: {
-      type: String,
-      default: ""
-    },
     blockAmount: {
       type: Number
     },
@@ -101,7 +97,6 @@ export default {
   },
   data() {
     return {
-      tracked: false,
       activeTitle: ""
     };
   },

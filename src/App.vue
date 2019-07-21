@@ -19,8 +19,7 @@
       :amountInBillions="section.amountInBillions"
       :section-id="section.id"
       :backgroundTitleColor="section.blockColor"
-      :textTitleColor="section.textTitleColor"
-      :tracker-id="section.trackerdId">
+      :textTitleColor="section.textTitleColor">
 
         <div class="content" v-if="section.content">
           <content-box :title="section.title" :backgroundTitleColor="section.blockColor" :textTitleColor="section.textTitleColor" :content="section.content" :blockAmount="section.blockAmount"></content-box>
